@@ -1,4 +1,5 @@
-# Concept: Decoupling the code to get clean and concise output from functions instead of a whole string, for example.
+# Concept: Decoupling the output to get clean and concise output from functions instead of a whole string, for example.
+
 def convert(feet_inches):
     parts = feet_inches.split(" ")
     feet = float(parts[0])
